@@ -1,0 +1,35 @@
+.UserProfileBody{
+    width: 100vw;
+    height: 18vh;
+    color: aliceblue;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    padding: 5px;
+
+    
+    
+}
+.UserProfile{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid gray;
+    height: 8rem;
+    width: 100vw;
+    border-radius: 9px;
+
+}
+
+.UserProfile img{
+    width: 7rem;
+    border-radius: 50%;
+    
+}
+.UserProfile p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 3vh;
+    height: 2rem;
+    font-size: xx-large;
+    
+}

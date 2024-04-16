@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0; 
+}
+.SigninPage h2{
+    color: #979191;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+
+.SignIn {
+    height: 40.5rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    color: rgb(153, 149, 149);
+    background-color: hsl(0, 0%, 0%); 
+    padding: 40px; 
+    border: 2px solid rgb(129, 127, 127); 
+    border-radius: 10px;
+    box-shadow: 10rem 4px 8px 0 rgba(115, 115, 115, 0.2); /* Box shadow with some blur and spread */
+}
+
+.SignIn .logo {
+    
+    width: 6rem; 
+    margin-bottom: 20px;
+}
+.SignIn .Singup-link{
+    color: gray; 
+    text-decoration: none;
+}
+
+.SignIn .forgetPassword-Link{
+    color: gray; 
+    text-decoration: none;
+    margin-left: 13rem ;
+}
+.SignIn form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    margin-top: 15px; 
+    border-radius: 10%;
+
+}
+
+.SignIn input {
+    width: 20rem; 
+    height:2rem;
+    border-radius: 1rem;
+    margin-bottom: 5px; 
+    color: gainsboro;
+    text-indent: 10px; 
+}
+
+.SignIn button {
+    width: 20rem; 
+    height:3rem;
+    border: 2px solid rgb(129, 127, 127); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(211, 12, 12, 0.2);
+    margin-top: 10px;   
+    color: rgb(153, 149, 149);
+    bottom: 1rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    
+}
+.loginOption {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    flex-direction: row;
+    bottom: 6rem; 
+    left: 5rem; 
+    width: 20rem;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.loginOption button {
+    width: 13rem;
+    height: 3rem; 
+    margin: 0.5rem; 
+    border: none; 
+    background-color: transparent; 
+}
+
+.loginOption button:focus {
+    outline: none; 
+}
+
+.loginOption .Face img,
+.loginOption .go img,
+.loginOption .em img,
+.loginOption .Ap img {
+    width: 2rem;
+    height: 2rem;
+  
+}
+
+.SignIn img{
+    width: 3rem;
+}
+
+
+.SignUpNow{
+    height: 38rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    color: rgb(153, 149, 149);
+    background-color: hsl(0, 0%, 0%); 
+    padding: 40px; 
+    border: 2px solid rgb(129, 127, 127); 
+    border-radius: 10px;
+    box-shadow: 10rem 4px 8px 0 rgba(115, 115, 115, 0.2); /* Box shadow with some blur and spread */
+}
+.SignUpNow .logo {
+    
+    width: 6rem; 
+    margin-bottom: 20px;
+}
+.SignUpNow .Singup-link{
+    color: gray; 
+    text-decoration: none;
+}
+
+.SignUpNow .forgetPassword-Link{
+    color: gray; 
+    text-decoration: none;
+    margin-left: 13rem ;
+}
+.SignUpNow form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    margin-top: 20px; 
+    border-radius: 10%;
+
+}
+
+.SignUpNow input {
+    width: 20rem; 
+    height:2rem;
+    border-radius: 1rem;
+    margin-bottom: 5px; 
+    color: gainsboro;
+    text-indent: 10px; 
+}
+
+.SignUpNow button {
+    width: 20rem; 
+    height:3rem;
+    border: 2px solid rgb(129, 127, 127); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(211, 12, 12, 0.2);
+    margin-top: 10px;   
+    color: rgb(153, 149, 149);
+    bottom: 1rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    
+}
+.loginOption {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    flex-direction: row;
+    bottom: 6rem; 
+    left: 5rem; 
+    width: 20rem;
+    background-color: #000000;
+    cursor: pointer;
+}

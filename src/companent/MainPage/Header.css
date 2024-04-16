@@ -1,0 +1,103 @@
+* {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #000000;
+    transition: height 0.3s ease; 
+    border-radius: 15%;
+
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.header.extended {
+    height: 8rem;
+}
+
+.header button {
+    position: absolute;
+    margin: 0;
+    right: 1;
+    border: none;
+    width: auto;
+    height: 4rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.header img {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Message {
+    position: absolute;
+    top: .4rem;
+    right: 1rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Message .img {
+   
+    width: 100%;
+    height: 100%;
+}
+
+/* header logo button */
+.Logo {
+    background-color: aliceblue;
+    position: absolute;
+    left: 48%;
+    top: .5rem;
+    
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Logo .img {
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+/* header Story button */
+.Story {
+    background-color: aliceblue;
+    position: absolute;
+    top: .3rem;
+    left: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Story .img {
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Storys */
+.Storys {
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}

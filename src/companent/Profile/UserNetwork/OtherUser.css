@@ -1,0 +1,92 @@
+.ProfileUser {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    overflow-y: auto; 
+    z-index: 0;
+}
+
+
+.ProfileUser h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    padding-bottom: 2rem;
+}
+.ProfileUser p{
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.PictureOfUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.PictureOfUser img{
+    width: 15vw;
+    height: 15vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.follow-links a{
+    color: gray;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.follow-links button{
+    width: 50vw;
+    height: 10vh;
+}
+
+.Follow-Button button{
+    width: 100vw;
+    height: 10vh;
+    color: gray;
+    font-size: x-large;
+    border: 3px solid gray;
+    cursor: pointer;
+
+}
+.Post-Grids button{
+    width: 32vw;
+    height: 7vh;
+    border: 1px solid gray;
+}
+.Post-Grids img{
+ 
+    height: 6vh;
+}
+.Post-Grids .tag button{
+    padding-top: 1rem;
+
+}
+.postsDisplay{
+    align-items: center;
+
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 33.33vw;
+}
+.postsDisplay img{
+    display: flex;
+    flex-direction: row;
+    width: 33.33vw;
+    height: 30vh;
+    border-radius: 0;
+}

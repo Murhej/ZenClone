@@ -1,0 +1,29 @@
+.HeaderInfo {
+    padding-top: 3.8rem;
+    padding-left: 1.2rem;
+    padding-right: .2rem;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderInfo .Post ,
+.HeaderInfo .Star ,
+.HeaderInfo .Live ,
+.HeaderInfo .Following ,
+.HeaderInfo .Heart  {
+    width:  3rem;
+
+}
+
+
+.HeaderStories{
+    border-radius: 50%;
+
+}
+
+.HeaderStories .Storys{
+    background-color: aliceblue;
+    width: 10rem;
+    top: 10rem;
+}

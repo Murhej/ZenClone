@@ -1,0 +1,142 @@
+.PicPosts {
+    background-color: rgb(2, 2, 2);
+    width: 100vw;
+    height: 99vh;
+    top: 1rem;
+    margin: auto;
+    padding: auto;
+    color: rgb(219, 223, 227);
+    margin-top:10rem;
+
+}
+.PicPosts p{
+    padding:1rem ;
+}
+
+.PicPosts button {
+    color: aliceblue;
+}
+
+.postHeader {
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.postHeader img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.postHeader button {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+.postHeader p {
+    align-self: center;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+.postHeader .star {
+    margin-left: auto; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    cursor: pointer;
+}
+
+.postHeader .star img{
+    border-radius: 50%;
+    width: 9rem; 
+    height: 9rem; 
+}
+.PostImage {
+    padding: 0;
+    margin: 0;
+    border: 3px solid rgb(94, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PostImage img {
+    width: 55vw;
+    height: 65vh;
+    border: 3px solid rgb(140, 138, 138);
+}
+
+.PostBody{
+    padding-left: .8rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.PostBody button{
+  
+    margin-top: 0.5rem;
+    width: 13%;
+    height: 4rem;
+    border: 0;
+    padding-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    
+
+}
+.PostBody span{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.PostBody img{
+    width: 4rem;
+    height: 4rem;
+    
+}
+.PostBody .LikeBody img{
+    width: 6rem;
+    height: 4rem;
+}
+.PostBody .SavePost{
+    margin-left: auto;
+}
+.PostFooter {
+
+    width: 100vw;
+    height: auto;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+
+}
+.PostFooter p{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+   
+}
+.PostFooter .Caption {
+    color: rgb(192, 188, 188);
+    font-size: 13px;
+    padding-top: 1.6rem;
+    padding-left: .01rem;
+
+}
+.date{
+    margin-left: .7rem;
+    color: rgb(161, 163, 164);
+    font-size:10px;
+    border-bottom: 2px solid rgb(163, 163, 163);
+}

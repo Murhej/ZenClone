@@ -1,0 +1,161 @@
+
+.Profile-Page  {
+    position: absolute;
+    top: 16rem; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    max-height: 50vh;
+    color: rgb(140, 138, 138);
+    border-bottom: 1px solid rgb(165, 165, 165);
+    z-index: 0;
+    background-color: rgb(0, 0, 0);
+    text-align: center; 
+    
+}
+
+
+
+
+/* Other styles remain unchanged */
+
+.Profile-Page .prof  {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    overflow:hidden;
+    width: 12rem;
+    height: 12rem;
+    cursor: pointer;
+    border-radius: 50% ;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+.Profile-Page .prof img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Profile-Page .prof button {
+    position: relative; 
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.Profile-Page .prof button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(143, 143, 143, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    background-image: url('../MainPage/Imgs/Edit.png'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.Profile-Page .prof button:hover::before {
+    opacity: 1; 
+}
+
+.Profile-Page .prof img {
+   
+    width: 100%; 
+    height: auto; 
+}
+.Profile-Page  h6{
+    font-size: 2rem;
+    width: 10rem; 
+    height: auto;
+    margin: 0 auto;
+ 
+}
+.Profile-Page  p {
+   font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.Profile-Page .follow button{
+    width: 50%;
+    cursor: pointer;
+    height: auto;
+    bottom: 2rem;
+    color: gray;
+    font-size: large;
+    border-bottom: none; 
+    outline: none;
+    outline-color: gray;
+    text-decoration: none;
+}
+.Profile-Page .follow a{
+    width: 50%;
+    cursor: pointer;
+    height: 2.5rem;
+    bottom: 2rem;
+    color: gray;
+    font-size: large;
+    border-bottom: none; 
+    outline: none;
+    outline-color: gray;
+    text-decoration: none;
+}
+.Profile-Page .contact button {
+    width: 50%;
+    cursor: pointer;
+
+    height: 3rem;
+    color: rgb(128, 128, 128);
+    font-size: x-large;
+    border-bottom: 1px solid rgb(165, 165, 165);
+
+}
+.Profile-Page .Grid button{
+    grid-column: auto;
+    height: 4.3rem;
+    width: 33.33%;
+    cursor: pointer;
+
+    border-bottom: 1px solid rgb(165, 165, 165);
+
+}
+.Profile-Page .Grid img{
+    margin-top: .2rem;
+    height: 3rem;
+    width: 50;
+}
+.Profile .signout {
+    position: absolute; /* Position the button relative to its containing block */
+    top: .5rem; 
+    right: .5rem; 
+    width: 10rem;
+    height:3rem;
+    border-bottom: 1px solid rgb(95, 94, 94);
+    background-color: rgb(0, 0, 0);
+    color: gray;
+}
+.posts{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.post img{
+  width: 33.33vw;
+  height: 30vh;
+}

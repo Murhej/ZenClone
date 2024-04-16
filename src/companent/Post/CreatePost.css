@@ -1,0 +1,91 @@
+.createP {
+    background-color: rgb(0, 0, 0);
+    top: 1rem;
+    display: flex;
+    width: 90vw;
+    height: 96vh;
+    flex-direction: column;
+    padding: 3px; 
+    
+}
+.createP h2{
+    color: gray;
+    text-align: center;
+    font-size: x-large;
+    top: 1rem;
+}
+.uploadedFiles {
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.uploadedFiles img{
+    width: 28vw;
+    height: 25em;
+}
+
+.CreatePost {
+    margin-top: 1rem;
+    height:60vh; /* Change height to auto to accommodate dynamic content */
+    border: 3px solid rgb(75, 75, 75);
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem; /* Add padding */
+}
+
+.CreatePost label {
+    display: block; /* Ensure label fills the container */
+    border: 3px solid rgb(75, 75, 75);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem; /* Add padding */
+    border-radius: 15px;
+    background-color: rgb(186, 184, 184);
+    cursor: pointer;
+}
+
+
+
+
+
+.PostInfo{
+    margin-top: 1rem;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+   
+}
+.PostInfo input{
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: gray;
+    font-size:large ;
+
+}
+.PostInfo .desc{
+    height: 5rem;
+
+}
+.PostInfo ::placeholder{
+    padding:1rem ;
+    font-size: x-large;
+}
+.PostInfo button {
+    border: 3px solid gray;
+    width: 25%;
+    height: 20%;
+    color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 38%;
+
+}
+.PostInfo .alt{
+    height: 2rem;
+
+}
