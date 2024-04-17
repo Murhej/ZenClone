@@ -29,7 +29,7 @@ function App() {
     <Router>
         <div>
           <Routes>
-            <Route path="/" element={<MainPage />} />
+            <Route path="/" element={<Navigate to="/SignIn" />} />
             <Route path="/SignIn" element={<SignIn />} />
             <Route path='/SignUp' element={<SignUp/>}/>
             <Route path='/Profile/:userId' element={<Profile />}/>
