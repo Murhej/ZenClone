@@ -35,7 +35,7 @@ function Profile() {
                     });
             }
         }
-    }, [user, image]);
+    }, [user, image, setUser]);
 
     if (!user) {
         return <div>Loading...</div>;

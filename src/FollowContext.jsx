@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState } from 'react';
 import axios from 'axios';
 
 export const FollowContext = createContext();
@@ -31,7 +31,7 @@ export function FollowContextProvider({ children }) {
   };
 
   return (
-    <FollowContext.Provider value={{ followers, following, fetchFollowers, fetchFollowing }}>
+    <FollowContext.Provider value={{ followers, following, fetchFollowers, fetchFollowing, error }}>
       {children}
     </FollowContext.Provider>
   );

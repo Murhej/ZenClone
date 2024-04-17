@@ -9,7 +9,6 @@ import banner from '../../MainPage/Imgs/banner.png';
 import profile from '../../MainPage/Imgs/ProfilePic.png';
 import { UserContext } from '../../../UserContext';  
 import { Link } from "react-router-dom";
-// import { FollowContext } from "../../../FollowContext";
 import './OtherUser.css';
 
 function OtherUser() {
@@ -68,7 +67,7 @@ function OtherUser() {
                     setImageError(true);
                 });
         }
-    }, [clientProfile]); // Removed `image` from dependencies to prevent loop
+    }, [clientProfile], image);
     
     useEffect(() => {
         if (currentUser && clientProfile) {

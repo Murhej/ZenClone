@@ -37,7 +37,7 @@ function UserProfile({ userData }) {
                     setImageError(true);
                 });
         }
-    }, [image]);
+    }, [image], user._id);
 
     if (!user) {
         return <div>Loading...</div>;
