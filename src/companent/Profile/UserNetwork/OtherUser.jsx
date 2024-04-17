@@ -67,7 +67,7 @@ function OtherUser() {
                     setImageError(true);
                 });
         }
-    }, [clientProfile], image);
+    }, [clientProfile]);
     
     useEffect(() => {
         if (currentUser && clientProfile) {

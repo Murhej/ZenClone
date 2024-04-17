@@ -61,7 +61,7 @@ function FypPage() {
                           
                             {post.media.map((mediaItem, index) => (
                                 <Link to={`/Posts/${post._id}`} key={index}>
-                                    <img src={mediaItem.url} alt='image'/>
+                                    <img src={mediaItem.url} alt='store of my life'/>
                                 </Link>
                             ))}
                         </div>
