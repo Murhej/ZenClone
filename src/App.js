@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios"; // Import axios using ES6 style
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainPage from './companent/MainPage/MainPage';
 import SignIn from './companent/SignIn/SingUp/SingIn';
 import SignUp from './companent/SignIn/SingUp/SingUp';
 import Profile from './companent/Profile/Profile'
@@ -28,7 +29,7 @@ function App() {
     <Router>
         <div>
           <Routes>
-            <Route path="/" element={<SignIn/>} />
+            <Route path="/" element={<MainPage />} />
             <Route path="/SignIn" element={<SignIn />} />
             <Route path='/SignUp' element={<SignUp/>}/>
             <Route path='/Profile/:userId' element={<Profile />}/>
